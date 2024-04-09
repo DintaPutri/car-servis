@@ -1,0 +1,117 @@
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(0, 95, 150) ;
+  }
+
+.wrapper-navbar {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+  .navbar {
+    margin-top: 20px;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .navbar a {
+    float: left;
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+    background-color: #706f6f;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+
+  .navbar a:hover {
+    background-color: #242424;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .gambar{
+    position: absolute;
+    z-index: 0;
+  }
+
+  .gambar img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    width: 100%;
+    background-color: black;
+  }
+
+  .layanan {
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    padding: 0px 50px 50px 50px;
+    width: 40%;
+    height: max-content;
+    position: absolute;
+    margin: 15rem 0rem 0rem 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+  }
+
+  .button {
+    position: absolute;
+    margin: 40rem 0rem 0rem 20rem;
+  }
+
+  .btn-more{
+    background-color: #242424;
+    color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btn-more:hover{
+    background-color: #706f6f ;
+  }
+
+  .img-tools {
+    position: absolute;
+    margin: 12rem 0rem 0rem 62rem;
+  }
+
+  .img-tools img{
+    width: 50rem;
+  }
+
+  h1 {
+    text-align: center;
+    text-transform: none;
+    font-size: 60px;
+  }
+
+  p {
+    text-align: justify;
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
